@@ -1,0 +1,6 @@
+.special {
+    background-image: url("../FoodItems/assets/noodles.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+}

@@ -1,0 +1,71 @@
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.mealItems {
+    margin: 10px;
+    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.mealItems:hover {
+    background-color: rgb(205, 26, 26);
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+.input {
+    height: 55px;
+    width: 330px;
+    margin-top: 60px;
+}
+
+.searchButton {
+    height: 50px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.firstPhase {
+    background-image: url("./FoodItems/assets/pizza.jpeg");
+    background-size: cover;
+    height: 1000px;
+}
+
+.firstPhaseTitle {
+    color: white;
+    font-size: 100px;
+}
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+span {
+    color: rgb(6, 126, 12);
+}
+
+.mealItemRating {
+    font-weight: bolder;
+}
+
+.mealItemPrice {
+    font-weight: bolder;
+}
+
+.mealItemName {
+    font-weight: bolder;
+}
